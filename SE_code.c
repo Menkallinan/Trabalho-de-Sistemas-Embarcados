@@ -2,6 +2,7 @@
 #include "ESP32Servo.h"
 //Servo myservo;
 
+//O "if" a seguir serve para testar a conexão com o bluetooth
 #if !defined(CONFIG_BT_ENABLED) || !defined(CONFIG_BLUEDROID_ENABLED)
   #error Bluetooth is not enabled! Please run `make menuconfig` to enable it
 #endif
